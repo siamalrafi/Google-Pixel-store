@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--------------------------- daisyui link --------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.28.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <!--------------------------- tailwind css link --------------------------->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--------------------------- font awesome cdn --------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--------------------------- fontawesome link --------------------------->
+    <script src="https://kit.fontawesome.com/bcdbc37bd8.js" crossorigin="anonymous"></script>
+
+    <title>My Pixel Store </title>
+</head>
+
+<body>
+    <!--------------------- header section  ------------------->
+
+    <header>
+        <!--------------------- navbar section  ------------------->
+        <nav>
+            <div class="navbar bg-slate-500">
+                <div class="flex-1">
+                    <a class="btn bg-amber-200 btn-ghost normal-case text-xl">Google Pixel</a>
+                </div>
+                <div class="flex-none gap-2">
+                    <div class="text-white ">
+                        <ul class="hidden lg:flex text-xl">
+                            <li class="mr-10">
+                                <span> <i class="text-yellow-400 fa-solid fa-house"></i></span>
+                                <span>Home</span>
+                            </li>
+                            <li class="mr-10">
+                                <span><i class="text-yellow-400 fa-solid fa-heart"></i></span>
+                                <span>WISHLIST</span>
+                            </li>
+                            <li class="mr-10">
+                                <span><i class="text-yellow-400 fa-sharp fa-solid fa-trash"></i></span>
+                                <span>DELETE</span>
+                            </li>
+                            <li class="mr-10 relative ">
+                                <span class="absolute right-[-40px]  top-[-20px]">
+                                    <div class="badge badge-secondary">+99</div>
+                                </span>
+                                <label for="my-drawer-4" class="drawer-button"><span><i
+                                            class="text-yellow-400 fa-sharp fa-solid fa-cart-arrow-down"></i></span></label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown dropdown-end">
+                        <label tabindex="0" class="block lg:hidden btn btn-ghost btn-circle avatar">
+                            <i class="fa-sharp text-2xl text-red-200 fa-solid fa-bars"></i> </label>
+                        <ul tabindex="0"
+                            class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
+                            <li>
+                                <a href="#"><span> <i class="fa-solid fa-house"></i></span>
+                                    <span>Home</span></a>
+                            </li>
+                            <li><a><span><i class="fa-solid fa-heart"></i></span>
+                                    <span>WISHLIST</span></a></li>
+                            <li><a> <span><i class="fa-sharp fa-solid fa-trash"></i></span>
+                                    <span>DELETE</span></a></li>
+                            <li><a>
+                                    <span class="absolute right-[-20px]  top-[-1px]">
+                                        <div class="badge badge-secondary">+99</div>
+                                    </span>
+                                    <span class="drawer-button"> <label for="my-drawer-4" class="dr"><span><i
+                                                    class="text-black fa-sharp fa-solid fa-cart-arrow-down"></i>
+                                            </span><span class="mx-2">Card</span></label></span>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!------------------------ drawer start -------------------->
+        <div class="drawer drawer-end">
+            <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
+            <div class="drawer-content">
+                <!-- Page content here -->
+
+            
+
+
+
+
+
+            </div>
+            <div class="drawer-side">
+                <label for="my-drawer-4" class="drawer-overlay"></label>
+                <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
+                    <!-- Sidebar content here -->
+                    <li><a>Sidebar Item 1</a></li>
+                    <li><a>Sidebar Item 2</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+</body>
+
+</html>
